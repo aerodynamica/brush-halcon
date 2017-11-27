@@ -1,0 +1,47 @@
+{
+  "name": "brush-halcon",
+  "version": "4.0.0",
+  "description": "Brush module for SyntaxHighlighter.",
+  "keywords": [
+    "syntaxhighlighter",
+    "brush",
+    "halcon",
+    "hdevelop"
+  ],
+  "homepage": "https://github.com/aerodynamica/brush-halcon",
+  "bugs": "https://github.com/aerodynamica/brush-halcon/issues",
+  "author": {
+    "name": "Maxim Vlieghe",
+    "url": "https://github.com/aerodnamica"
+  },
+  "main": "brush.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aerodynamica/brush-halcon.git"
+  },
+  "scripts": {
+    "test": "babel-node --only='syntaxhighlighter-*,brush-*' node_modules/mocha/bin/_mocha --opts mocha.opts test.js"
+  },
+  "dependencies": {
+    "brush-base": "^4.0.0",
+    "syntaxhighlighter-regex": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.1.21",
+    "babel-preset-es2015": "^6.1.18",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "syntaxhighlighter-match": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2"
+  },
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
