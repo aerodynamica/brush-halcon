@@ -3,7 +3,7 @@
 ![Downloads](https://img.shields.io/npm/dm/brush-halcon.svg)
 ![Version](https://img.shields.io/npm/v/brush-halcon.svg)
 
-Halcon brush module for [SyntaxHighlighter](https://github.com/aerodynamica/brush-halcon).
+Halcon brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter).
 
 ## Usage
 
